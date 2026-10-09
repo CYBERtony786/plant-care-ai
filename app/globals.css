@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fcfcfc;
+  --foreground: #333333;
+  --primary-green: #2e7d32;
+  --hover-green: #1b5e20;
+  --light-green: #e8f5e9;
+  --border-light: #e0e0e0;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
